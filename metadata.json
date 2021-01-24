@@ -44,7 +44,9 @@
         "9",
         "10"
       ]
+    },
+    {
+      "operatingsystem": "Archlinux"
     }
-
   ]
 }

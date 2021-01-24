@@ -67,9 +67,7 @@ class wireguard::install (
       }
     }
     default: {
-      if $manage_package {
-        warning("Unsupported OS family, couldn't configure package automatically")
-      }
+      $_require = undef
     }
   }
 
