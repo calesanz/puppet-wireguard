@@ -21,6 +21,11 @@ class wireguard::params {
       $package_name   = ['wireguard', 'wireguard-dkms', 'wireguard-tools']
       $repo_url       = 'http://deb.debian.org/debian/'
     }
+    'Archlinux': {
+      $manage_repo    = false
+      $package_name   = ['wireguard-tools']
+      $repo_url       = ''
+    }
     default: {
       warning("Unsupported OS family, couldn't configure package automatically")
     }

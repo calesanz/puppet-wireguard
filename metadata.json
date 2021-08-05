@@ -44,15 +44,9 @@
         "9",
         "10"
       ]
-    }
-  ],
-  "requirements": [
+    },
     {
-      "name": "puppet",
-      "version_requirement": ">= 4.10.0 < 7.0.0"
+      "operatingsystem": "Archlinux"
     }
-  ],
-  "pdk-version": "1.14.0",
-  "template-url": "pdk-default#1.14.0",
-  "template-ref": "1.14.0-0-g1bf3a4e"
+  ]
 }
